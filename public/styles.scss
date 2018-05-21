@@ -1,0 +1,157 @@
+$primary-font: sans-serif;
+$primary-color: #fff;
+$primary-background-color: #343a40;
+@mixin background-img($height) {
+    height: $height;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body {
+  font: $primary-font;
+  color: $primary-color;
+  background-color: $primary-background-color;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+.col-12 {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  padding-top: 10px;
+  opacity: .9;
+}
+
+.nav-items, .catagories {
+  text-align: right;
+}
+
+.bg-index {
+  background-image: url('/img/bakery.jpg');
+  @include background-img(875px);
+}
+
+.bg-about {
+  background-image: url('/img/about.jpg');
+  @include background-img(875px);
+}
+
+.bg-cookies {
+  background-image: url('/img/cookies.jpg');
+  @include background-img(875px);
+}
+
+.bg-cakes {
+  background-image: url('/img/cakes.jpg');
+  @include background-img(875px);
+}
+
+.bg-muffins {
+  background-image: url('/img/muffins.jpg');
+  @include background-img(875px);
+}
+
+.bg-visit {
+  background-image: url('/img/croissant.jpg');
+  @include background-img(875px);
+}
+
+.bg-subscribe {
+  background-image: url('/img/display.jpg');
+  @include background-img(875px);
+}
+
+.product-img {
+  width: 200px;
+  height: 200px;
+  size: cover;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.content-text {
+  margin-top: 30px;
+}
+
+.map {
+  background-image: url('/img/map.png');
+  @include background-img(600px);
+}
+
+footer {
+  padding-top: 10px;
+}
+
+.footernav ul {
+  padding-top: 10px;
+}
+
+.footernav li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.footernav a {
+  padding: 5px 10px;
+  color: $primary-color;
+  text-decoration: none;
+}
+
+.footernav a:hover {
+  padding: 3px 8px;
+  text-decoration: underline;
+  color: $primary-background-color;
+  background-color: $primary-color;
+  border: 1px solid $primary-color;
+  border-radius: 5px;
+  opacity: .6;
+}
+
+footer ul, .copyright {
+  padding-left: 20px;
+  margin: 15px 0;
+}
+
+.copyright {
+  text-align: right;
+  padding-bottom: 15px;
+}
+
+.email-form {
+  margin-top: 5px;
+  float: right;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.email-input {
+  border-radius: 5px;
+  padding: 5px
+}
+
+.subscribe-button {
+  margin: 0px 10px;
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+

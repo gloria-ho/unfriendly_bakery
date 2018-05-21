@@ -1,0 +1,34 @@
+<% @title = "Muffins" %>
+<% @bg_img = "muffins" %>
+
+
+<div class="container content-text">
+  <div class="row">
+    <div class="col-4">
+      <p><img src="<%= @almond.img %>" alt="image of item <%= @almond.name %>" class="product-img"/></p>
+      <p><span class="bold"><%= @almond.name %></span></p>
+      <p><span class="lighter"><%= @almond.descr %></span></p>
+      <p><%= @almond.price %></p>
+
+    </div>
+    <!-- /.col-4 -->
+    <div class="col-4">
+      <p><img src="<%= @pretzel.img %>" alt="image of item <%= @pretzel.name %>" class="product-img"/></p>
+      <p><span class="bold"><%= @pretzel.name %></span></p>
+      <p><span class="lighter"><%= @pretzel.descr %></span></p>
+      <p><%= @pretzel.price %></p>
+
+    </div>
+    <!-- /.col-4 -->
+    <div class="col-4">
+      <p><img src="<%= @red_velvet.img %>" alt="image of item <%= @red_velvet.name %>" class="product-img"/></p>
+      <p><span class="bold"><%= @red_velvet.name %></span></p>
+      <p><span class="lighter"><%= @red_velvet.descr %></span></p>
+      <p><%= @red_velvet.price %></p>
+
+    </div>
+    <!-- /.col-4 -->
+  </div>
+  <!-- /.row -->
+</div>
+<!-- /.container -->
