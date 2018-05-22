@@ -76,6 +76,14 @@ body {
   background-repeat: no-repeat;
   background-size: 100%; }
 
+.bg-subscribed {
+  background-image: url("/img/sprinkle.jpg");
+  height: 875px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
 .product-img {
   width: 200px;
   height: 200px;

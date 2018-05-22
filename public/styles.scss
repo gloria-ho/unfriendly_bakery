@@ -72,6 +72,11 @@ body {
   @include background-img(875px);
 }
 
+.bg-subscribed {
+  background-image: url('/img/sprinkle.jpg');
+  @include background-img(875px);
+}
+
 .product-img {
   width: 200px;
   height: 200px;

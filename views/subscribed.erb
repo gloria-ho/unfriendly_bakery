@@ -1,0 +1,18 @@
+<% @title = 'Subscribed!' %>
+<% @bg_img = 'subscribed' %>
+
+
+
+<div class="container content-text">
+  <div class="row">
+    <div class="col-12">
+      <h2>Thank you for subscribing to our mailing list!
+        <% if @email != nil %>
+          <%= @email %> has been subscribed!</h2>
+        <% end %>
+    </div>
+    <!-- /.col-12 -->
+  </div>
+  <!-- /.row -->
+</div>
+<!-- /.container -->
