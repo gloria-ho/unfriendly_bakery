@@ -2,7 +2,7 @@
 <% @bg_img = "muffins" %>
 
 
-<div class="container content-text">
+<div class="container content-text product-col">
   <div class="row">
     <div class="col-sm-4">
       <p><a data-toggle="modal" data-target="#img_modal" data-info="<%= @almond.img %>"><img src="<%= @almond.img %>" alt="image of item <%= @almond.name %>" class="product-img"/></a></p>
@@ -11,14 +11,14 @@
       <p><%= @almond.price %></p>
     </div>
     <!-- /.col-4 -->
-    <div class="col-sm-4">
+    <div class="col-sm-4 product-col">
       <p><a data-toggle="modal" data-target="#img_modal" data-info="<%= @pretzel.img %>"><img src="<%= @pretzel.img %>" alt="image of item <%= @pretzel.name %>" class="product-img"/></a></p>
       <p><span class="bold"><%= @pretzel.name %></span></p>
       <p><span class="lighter"><%= @pretzel.descr %></span></p>
       <p><%= @pretzel.price %></p>
     </div>
     <!-- /.col-4 -->
-    <div class="col-sm-4">
+    <div class="col-sm-4 product-col">
       <p><a data-toggle="modal" data-target="#img_modal" data-info="<%= @red_velvet.img %>"><img src="<%= @red_velvet.img %>" alt="image of item <%= @red_velvet.name %>" class="product-img"/></a></p>
       <p><span class="bold"><%= @red_velvet.name %></span></p>
       <p><span class="lighter"><%= @red_velvet.descr %></span></p>

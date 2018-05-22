@@ -17,6 +17,11 @@ body {
   background-color: $primary-background-color;
 }
 
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -95,6 +100,10 @@ body {
   transition: 0.3s;
 }
 
+.product-col{
+  text-align: center;
+}
+
 .product-img:hover {
   opacity: 0.7;
 }
@@ -118,6 +127,7 @@ footer {
 
 .footernav ul {
   padding-top: 10px;
+  margin: 0 auto 10px;
 }
 
 .footernav li {
@@ -145,6 +155,15 @@ footer {
 footer ul, .copyright {
   padding-left: 20px;
   margin: 15px 0;
+}
+
+.socialmedia {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.socialmedia img {
+  margin: 10px;
 }
 
 .copyright {
