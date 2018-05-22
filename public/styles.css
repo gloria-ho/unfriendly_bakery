@@ -14,6 +14,9 @@ body {
 .lighter {
   font-weight: lighter; }
 
+.hidden {
+  visibility: none; }
+
 .col-12 {
   margin: 0;
   padding: 0; }
@@ -28,6 +31,9 @@ body {
 
 .nav-items, .catagories {
   text-align: right; }
+
+.navbar-toggler {
+  float: right; }
 
 .bg-index {
   background-image: url("/img/bakery.jpg");
