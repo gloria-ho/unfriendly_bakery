@@ -7,7 +7,7 @@ require './muffins'
 sugar = @cookie_sugar
 chocolate = @cookie_chocolate
 caramel = @cookie_caramel
-chocolate = @cake_chocolate
+chocolate_cake = @cake_chocolate
 iced = @cake_iced
 pie = @cake_pie
 almond = @cupcake_almond
@@ -30,7 +30,7 @@ get('/cookies') do
 end
 
 get('/cakes') do
-  @chocolate = chocolate
+  @chocolate = chocolate_cake
   @iced = iced
   @pie = pie
   erb(:cakes)
@@ -67,4 +67,3 @@ end
 get('/visit') do
   erb(:visit)
 end
-
