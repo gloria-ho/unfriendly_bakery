@@ -1,5 +1,10 @@
 # Friendly Bakery
 
+## Email Sample Screenshot
+A screenshot of the beginning of the email sent to those who subsribe.
+![alt text](/img/email.png "email image part 1")
+![alt text](/img/email2.png "email image part 2")
+
 ## Goal
 To create a fullstack bakery website that displays information on cookies, cakes and muffins offered for sale as well as enables someone to receive a catalog of items sold via email.
 
