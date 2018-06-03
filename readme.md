@@ -1,5 +1,11 @@
 # Friendly Bakery
 
+## Features
+* Responsive design
+* Utilizes ERB (Embedded Ruby) to generate a layout and templates
+* Utilizes Mailgun API to send email to user
+* Sends an eye-chatching, stylized email to users who sign up
+
 ## Email Sample Screenshot
 A screenshot of the beginning of the email sent to those who subsribe.
 ![email screenshot](/public/img/email.png "email image part 1")
