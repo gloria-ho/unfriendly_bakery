@@ -9,6 +9,8 @@ class Muffin
   end
 end
 
+# Move this into the appropriate route inside of app.rb
+
 @cupcake_almond = Muffin.new(
   "Anaphylactic Almond Cupcake",
   "Allergic to almonds? Make sure to take a big slice of our almond cake!",

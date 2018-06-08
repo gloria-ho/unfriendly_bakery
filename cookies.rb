@@ -9,6 +9,7 @@ class Cookie
   end
 end
 
+# Move this into the appropriate route inside of app.rb
 @cookie_sugar = Cookie.new(
   "Diabetes Sugar Cookies",
   "Have a dose of diabetes with our sugar cookies, made up of 95\% pure sugar.",

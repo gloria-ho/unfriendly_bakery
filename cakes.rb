@@ -9,6 +9,8 @@ class Cake
   end
 end
 
+
+# Move this into the appropriate route inside of app.rb
 @cake_chocolate = Cake.new(
   "Devil's Chocolate Cake",
   "Have an important event coming up? Make sure to have a slice or three of our chocolate cake made with 90\% butter - to ensure that your perfect outfit will never fit right!",
