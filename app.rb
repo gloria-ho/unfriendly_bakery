@@ -4,6 +4,7 @@ require './cookies'
 require './cakes'
 require './muffins'
 
+# what are these global variables gloria?????
 sugar = @cookie_sugar
 chocolate = @cookie_chocolate
 caramel = @cookie_caramel
@@ -26,6 +27,7 @@ get('/cookies') do
   @sugar = sugar
   @chocolate = chocolate
   @caramel = caramel
+  # all these individual elements should be in an array
   erb(:cookies)
 end
 
@@ -33,6 +35,7 @@ get('/cakes') do
   @chocolate = chocolate_cake
   @iced = iced
   @pie = pie
+  # all these individual elements should be in an array
   erb(:cakes)
 end
 
@@ -40,6 +43,7 @@ get('/muffins') do
   @almond = almond
   @pretzel = pretzel
   @red_velvet = red_velvet
+  # all these individual elements should be in an array
   erb(:muffins)
 end
 
