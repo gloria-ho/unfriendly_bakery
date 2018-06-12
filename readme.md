@@ -1,5 +1,14 @@
 # Friendly Bakery
 
+## Goal
+To create a fullstack bakery website that displays information on cookies, cakes and muffins offered for sale as well as enables someone to receive a catalog of items sold via email.
+
+## Built With:
+* Ruby Sinatra
+* External API
+* HTML5
+* Sass
+
 ## Features
 * Responsive design
 * Utilizes ERB (Embedded Ruby) to generate a layout and templates
@@ -11,18 +20,15 @@ A screenshot of the beginning of the email sent to those who subsribe.
 ![email screenshot](/public/img/email.png "email image part 1")
 ![email screenshot](/public/img/email2.png "email image part 2")
 
-## Goal
-To create a fullstack bakery website that displays information on cookies, cakes and muffins offered for sale as well as enables someone to receive a catalog of items sold via email.
-
-## Learning Objectives:  
+### Learning Objectives:  
 
 Upon successful completion of this project, the student will demonstrate their understanding of how to use API Wrappers in Ruby as well how to create a website using the Sinatra microframework.
 
-## Instructions:
+### Instructions:
 
 Your friend is a baker who recently had a grand opening of their store. Unfortunately, the turnout was less than ideal and your friend suggested creating a website. The goal is to improve the store’s online presence and hopefully increase foot traffic to the store. Naturally, your friend turns to you for help and hands you some starting suggestions in a google document.
 
-## Client Suggestions:
+### Client Suggestions:
 
 * I want it to look and feel like a bakery website
 * The front page should
@@ -36,13 +42,7 @@ Your friend is a baker who recently had a grand opening of their store. Unfortun
   * a price
 * There should be a way for a person on the site to receive an email with a catalog of all items sold
 
-## Examples (Inspiration):
-
-* <https://bakedbyyael.myshopify.com/collections/cakepops>
-* <http://thecupcakeshopperaleigh.com/>
-* <http://www.sugarlandchapelhill.com/>
-
-## Challenge:
+### Challenge:
 
 In programming, in order to not repeat yourself, sometimes we have to store our data in a universal format that can be utilized in multiple areas. This is similar to how you would write recipe instructions down so in the future you can just use that as a template.
 
@@ -65,7 +65,7 @@ Try using these objects to
 * display information on price and description on the subcategory pages
 * generate the catalog email to send to the requesting user
 
-## Completion Requirements:
+### Completion Requirements:
 
 The completed assignment should:
 
