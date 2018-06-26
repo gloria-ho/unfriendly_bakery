@@ -4,6 +4,12 @@ require './cookies'
 require './cakes'
 require './muffins'
 
+class App < Sinatra::Base
+  get "/" do
+    "Hello world!"
+  end
+end
+
 sugar = @cookie_sugar
 chocolate = @cookie_chocolate
 caramel = @cookie_caramel
