@@ -3,6 +3,9 @@
 ## Goal
 To create a fullstack bakery website that displays information on cookies, cakes and muffins offered for sale as well as enables someone to receive a catalog of items sold via email.
 
+### Heroku Deployment
+https://gh-unfriendly-bakery.herokuapp.com/
+
 ## Built With:
 * Ruby Sinatra
 * External API
